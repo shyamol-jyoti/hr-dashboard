@@ -13,6 +13,8 @@ import Pork from './components/Pork';
 import Veg from './components/Veg';
 import Complementary from './components/Complementary';
 import NotFound from './components/NotFound';
+import Home from './components/Home';
+
 
 
 
@@ -23,8 +25,8 @@ export default{
 
 	routes:[
 		{
-			path: '*',
-			component: NotFound
+			path: '/',
+			component: Home
 		},
 		{
 			path: '/regular-whiskey',
@@ -81,6 +83,10 @@ export default{
 		{
 			path: '/complementary',
 			component: Complementary
+		},
+		{
+			path: '*',
+			component: NotFound
 		}
 	]
 };

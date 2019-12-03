@@ -11,11 +11,11 @@
     <body>
         <div id="app">
             <div class="mx-auto">
-                <header class="py-6 bg-orange-100 px-16 shadow">
-                    <h1 class="text-2xl text-orange-700 font-bold"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather inline mr-2 feather-filter"><polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"></polygon></svg>SJD Bar</h1>
+                <a href="/"><header class="py-6 bg-orange-200 px-16">
+                    <h1 class="text-2xl text-orange-700 font-bold"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather inline mr-2 feather-filter"><polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"></polygon></svg>SJD Bar</h1></a>
                 </header>
-                <main class="flex my-8 px-16">
-                    <aside class="w-1/6">
+                <main class="flex">
+                    <aside class="w-1/6 bg-orange-100 h-auto py-8 px-16">
                         <section>
                             <h1 class="uppercase text-base text-orange-500 font-bold mb-3">The Brand</h1>
                             <ul class="text-gray-700 ml-4">
@@ -47,7 +47,7 @@
                         </section>
                         
                     </aside>
-                    <div class="primary flex-1">
+                    <div class="primary flex-1 py-8 px-16">
                         <router-view></router-view>
                     </div>
                 </main>
